@@ -34,6 +34,6 @@ cipher.set_alphabet("abcdefghijklmnopqrstuvwxyz")
 cipher.set_shift(3)
 
 source_text = "The quick brown fox jumps over the lazy dog"
-encrypted_text = cipher.encode(source_text)
+encoded_text = cipher.encode(source_text)
 print("Source text:", source_text)
-print("Encrypted text:", encrypted_text)
+print("Encoded text:", encoded_text)
